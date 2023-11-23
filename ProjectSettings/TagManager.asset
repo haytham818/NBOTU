@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - enemy
+  - Satellite
+  - CG1
+  - jixu
+  - tuichu
+  - Star
+  - Plane
+  - Text1
+  - Text2
+  - Text3
+  - Text4
+  - Text5
+  - Text6
+  - Text7
+  - Text8
+  - Text9
+  - Text10
+  - Text11
+  - Stars
+  - laser
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: background
+    uniqueID: 1986596905
+    locked: 0
+  - name: ui
+    uniqueID: 1411841081
+    locked: 0
+  - name: warground
+    uniqueID: 3033974519
+    locked: 0
+  - name: cg
+    uniqueID: 1616264943
+    locked: 0
+  - name: Text
+    uniqueID: 429271655
+    locked: 0
+  - name: CameraSortingLayer
+    uniqueID: 958702933
+    locked: 0

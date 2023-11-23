@@ -1,0 +1,347 @@
+Using pre-set license
+Built from '2022.3/china_unity/release' branch; Version is '2022.3.7f1c1 (0493b5551c5b) revision 299957'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 31963 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.7f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/doss/Salty Desert/Salty Desert
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+13602
+Successfully changed project path to: C:/doss/Salty Desert/Salty Desert
+C:/doss/Salty Desert/Salty Desert
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [88180] Host "[IP] 10.18.194.174 [Port] 0 [Flags] 2 [Guid] 1669197916 [EditorId] 1669197916 [Version] 1048832 [Id] WindowsEditor(7,Zephyrus) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [88180] Host "[IP] 10.18.194.174 [Port] 0 [Flags] 2 [Guid] 1669197916 [EditorId] 1669197916 [Version] 1048832 [Id] WindowsEditor(7,Zephyrus) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 21.69 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.7f1c1 (0493b5551c5b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.7f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/doss/Salty Desert/Salty Desert/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28e0)
+    Vendor:   NVIDIA
+    VRAM:     7971 MB
+    Driver:   31.0.15.3645
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1c1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56280
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011382 seconds.
+- Loaded All Assemblies, in  0.288 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 298 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.566 seconds
+Domain Reload Profiling: 851ms
+	BeginReloadAssembly (86ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (108ms)
+		LoadAssemblies (84ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (106ms)
+			TypeCache.Refresh (105ms)
+				TypeCache.ScanAssembly (95ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (566ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (519ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (394ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (80ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\doss\Salty Desert\Salty Desert\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\doss\Salty Desert\Salty Desert\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.644 seconds
+Refreshing native plugins compatible for Editor in 5.38 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.719 seconds
+Domain Reload Profiling: 1356ms
+	BeginReloadAssembly (123ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (444ms)
+		LoadAssemblies (313ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (196ms)
+			TypeCache.Refresh (159ms)
+				TypeCache.ScanAssembly (143ms)
+			ScanForSourceGeneratedMonoScriptInfo (28ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (719ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (569ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (403ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 11.85 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6205 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 103 unused Assets / (441.7 KB). Loaded Objects now: 6698.
+Memory consumption went from 249.2 MB to 248.7 MB.
+Total: 7.406600 ms (FindLiveObjects: 0.763800 ms CreateObjectMapping: 0.406200 ms MarkObjects: 5.883100 ms  DeleteObjects: 0.351700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 65364.044240 seconds.
+  path: Assets/picture/Stars/星球6.png
+  artifactKey: Guid(1d5dcfa8c222df94db60797de7341055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/picture/Stars/星球6.png using Guid(1d5dcfa8c222df94db60797de7341055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc58f4a8f24ca143f5b3ce8b6ad15295') in 0.038733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/picture/能量条1.png
+  artifactKey: Guid(7024c26079e1ce34a8d500c414ff1446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/picture/能量条1.png using Guid(7024c26079e1ce34a8d500c414ff1446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd725dd4a4c43b3d605c1ab2da652e180') in 0.012277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/picture/Stars/星球2.png
+  artifactKey: Guid(ceae357970b06d6459e9d8941ede550d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/picture/Stars/星球2.png using Guid(ceae357970b06d6459e9d8941ede550d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe9f504def8930a6317042be0ad43848') in 0.007278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/picture/New Ui/6.png
+  artifactKey: Guid(2176dd3dfe9c32e49a0551f6b791c937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/picture/New Ui/6.png using Guid(2176dd3dfe9c32e49a0551f6b791c937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90950f57d3d8a8dd5cce5defef6dd9e1') in 0.007959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/picture/bj.png
+  artifactKey: Guid(6474a80d7f42ce6479cfbc2b367fd306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/picture/bj.png using Guid(6474a80d7f42ce6479cfbc2b367fd306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a2dcfc3b57dc6f225da9cf8552fa510') in 0.010806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/picture/Dialog Text/对话框3.png
+  artifactKey: Guid(26fb262c5c900ad45a2d28a081424868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/picture/Dialog Text/对话框3.png using Guid(26fb262c5c900ad45a2d28a081424868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bd244ee6230f22ad6000007ad82b9c2') in 0.010983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/picture/Dialog Text/对话框4.png
+  artifactKey: Guid(bc4046e0049e28e40be49d3f6d000d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/picture/Dialog Text/对话框4.png using Guid(bc4046e0049e28e40be49d3f6d000d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1dc3d9e078683fa9db601705e639472') in 0.005774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/picture/Dialog Text/对话框9.png
+  artifactKey: Guid(622451b32c096484496dd70880ce30e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/picture/Dialog Text/对话框9.png using Guid(622451b32c096484496dd70880ce30e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb984150ce13b388789c2da5fa8ae48') in 0.011029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/picture/Stars 1/星球1.png
+  artifactKey: Guid(5d094bf19588cff4c9a8ccd5213095e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/picture/Stars 1/星球1.png using Guid(5d094bf19588cff4c9a8ccd5213095e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2304e11218c860b75ddc87f5511cf6a2') in 0.004619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/picture/New Ui/3.png
+  artifactKey: Guid(4c20b2adc1cb2a94abbd94648c0e9d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/picture/New Ui/3.png using Guid(4c20b2adc1cb2a94abbd94648c0e9d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a811b811d39c08af83d8a0e5adc2798') in 0.020943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/picture/Textcg/cg4-1.png
+  artifactKey: Guid(a9d910dbef7642645b7b9ca2f4bc694a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/picture/Textcg/cg4-1.png using Guid(a9d910dbef7642645b7b9ca2f4bc694a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee7252c1ecf411be35665a6a8d23028c') in 0.009618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/picture/Stars 1/星球5.png
+  artifactKey: Guid(f7195cfc1186fd64b97b69ccd08266a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/picture/Stars 1/星球5.png using Guid(f7195cfc1186fd64b97b69ccd08266a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc22640d42586615c5e332007f90edfd') in 0.009847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/picture/New Ui/yz wg.png
+  artifactKey: Guid(62e00b37a54cc9f45aeed4678bf92638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/picture/New Ui/yz wg.png using Guid(62e00b37a54cc9f45aeed4678bf92638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7674eaace9fdf08df8b24b0963c8b95c') in 0.012403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/picture/Dialog Text/对话框10.png
+  artifactKey: Guid(c04ce9645676040469af039d7799b022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/picture/Dialog Text/对话框10.png using Guid(c04ce9645676040469af039d7799b022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cad1251619e2b4e17a31fceebbef6bbf') in 0.007065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/picture/Stars 1/星球6.png
+  artifactKey: Guid(2ef2b13ed5bd3474d8773d637ac1787a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/picture/Stars 1/星球6.png using Guid(2ef2b13ed5bd3474d8773d637ac1787a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0949c6a3ea94b01af9d2e3727d697df') in 0.007458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/picture/宇宙飞船3.png
+  artifactKey: Guid(f58a9ec534f1e5d4e9f4fe0198d1cf63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/picture/宇宙飞船3.png using Guid(f58a9ec534f1e5d4e9f4fe0198d1cf63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41a441bbe811cb7ffaa2d82faf4d1848') in 0.013161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/picture/yz wg.png
+  artifactKey: Guid(9dba1f3042a61f74792d8fcda339c446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/picture/yz wg.png using Guid(9dba1f3042a61f74792d8fcda339c446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '824ee494011f7939dbeae35e2a590b9d') in 0.046519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001232 seconds.
+  path: Assets/picture/Dialog Text/对话框5.png
+  artifactKey: Guid(82e28198af857e745b3e70ab80ee135d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/picture/Dialog Text/对话框5.png using Guid(82e28198af857e745b3e70ab80ee135d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc6690ecc616bce317413a3e716c943') in 0.005692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/picture/Dialog Text/对话框1.png
+  artifactKey: Guid(df26a3d917b4a3e43866ff66fc4cbb41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/picture/Dialog Text/对话框1.png using Guid(df26a3d917b4a3e43866ff66fc4cbb41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c93ae822cb1c9691072a51416ef0ffce') in 0.007012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/picture/boss2.png
+  artifactKey: Guid(f49f038e1f8e2c1419bd76bee01c5e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/picture/boss2.png using Guid(f49f038e1f8e2c1419bd76bee01c5e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '607d12a542e9b28b9bdf0f260a696071') in 0.006437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: �����߳��˳���Ӧ�ó�����������ֹ I/O ������
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
